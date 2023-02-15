@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    margin: 0;
+}
+
+canvas{
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: #000;
+    margin-top: 0;
+}
+.divreset{
+    display: flex;
+    justify-content: space-between;
+}
+#musicoff{
+    padding:.2em 2em;
+    background-color: orange;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    border-radius: 4px;
+}
+#reset{
+    padding:.2em 2em;
+    background-color:red ;
+    font-size:14px;
+    font-weight:600;
+    color:white;
+    border-radius:4px;
+}
+
+button{
+    text-align:center;
+    cursor:pointer;
+    border:none;
+    border-radius:8px;
+    user-select:none;
+}
+.div2{
+    text-align:center;
+    position: fixed;
+    bottom:0;
+    padding-inline:auto;
+    width:min(100%,50rem);
+}
+.div2 button{
+    margin-top:.2em;
+    padding:1em 2em;
+    background:linear-gradient(45deg,purple,pink);
+    color:white;
+    font-size:20px;
+}
